@@ -19,10 +19,8 @@
   <nav id="navbar">
     <div class="nav-logo">DG</div>
     <div class="nav-links desktop-only">
-      <a href="#projects" class="nav-link">Projects</a>
       <a href="#about" class="nav-link">About</a>
       <a href="#skills" class="nav-link">Skills</a>
-      <a href="#achievements" class="nav-link">Achievements</a>
       <a href="#contact" class="nav-link">Contact</a>
     </div>
     <button class="nav-hamburger mobile-only" aria-label="Menu">☰</button>
@@ -30,10 +28,8 @@
 
   <div id="mobile-menu" class="mobile-menu-overlay">
     <div class="mobile-nav-links">
-      <a href="#projects" class="mobile-nav-link">Projects</a>
       <a href="#about" class="mobile-nav-link">About</a>
       <a href="#skills" class="mobile-nav-link">Skills</a>
-      <a href="#achievements" class="mobile-nav-link">Achievements</a>
       <a href="#contact" class="mobile-nav-link">Contact</a>
     </div>
   </div>
@@ -51,105 +47,10 @@
       </div>
     </section>
 
-    <section id="projects">
-      <div class="section-container">
-        <div class="section-header reveal">
-          <span class="section-label">01</span>
-          <h2>Projects</h2>
-        </div>
-
-        <div class="filter-tabs">
-          <button class="filter-tab active" data-filter="all">All</button>
-          <button class="filter-tab" data-filter="ml-iot">ML & IoT</button>
-          <button class="filter-tab" data-filter="fintech">Fintech</button>
-          <button class="filter-tab" data-filter="simulation">Simulation</button>
-          <button class="filter-tab" data-filter="design">Design</button>
-        </div>
-
-        <div class="projects-grid">
-          <div class="project-card" data-tag="simulation">
-            <div class="card-top">
-              <span class="card-badge badge-gold">🏆 Finalist · HICC Hyderabad</span>
-              <span class="card-tag">Simulation</span>
-              <span class="card-date">Sept 2025</span>
-            </div>
-            <h3 class="card-title">ASME BrainBolt — CFD Sprint</h3>
-            <p class="card-desc">Finalist in Ansys/CADFEM CFD automation hackathon. Led R&D for mixing tank optimization and vehicle aerodynamics using PyFluent scripting under sprint conditions.</p>
-            <div class="card-stack">
-              <span class="stack-pill">PyFluent</span>
-              <span class="stack-pill">PyAnsys</span>
-              <span class="stack-pill">Python</span>
-              <span class="stack-pill">CFD Automation</span>
-            </div>
-          </div>
-
-          <div class="project-card" data-tag="ml-iot">
-            <div class="card-top">
-              <span class="card-badge badge-green">🔬 Functional Prototype</span>
-              <span class="card-tag">ML & IoT</span>
-              <span class="card-date">Dec 2025</span>
-            </div>
-            <h3 class="card-title">Gramin Guard</h3>
-            <p class="card-desc">Predictive monitoring for rural cold storage — detects compressor failures 2–3 days early. Edge ML on Raspberry Pi Zero, offline-first, CT sensor-based. Addresses SDG 3 & 9.</p>
-            <div class="card-stack">
-              <span class="stack-pill">Raspberry Pi</span>
-              <span class="stack-pill">Edge ML</span>
-              <span class="stack-pill">IoT</span>
-              <span class="stack-pill">Anomaly Detection</span>
-            </div>
-            <div class="card-links">
-              <a href="https://defaulte-r.github.io/Garmin-Guard/" target="_blank" rel="noopener noreferrer" class="card-link" aria-label="View Project">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-              </a>
-            </div>
-          </div>
-
-          <div class="project-card" data-tag="fintech">
-            <div class="card-top">
-              <span class="card-badge badge-amber">🚀 Live & Deployed</span>
-              <span class="card-tag">Fintech</span>
-              <span class="card-date">Jan 2026</span>
-            </div>
-            <h3 class="card-title">RBI Risk Prioritization Tool</h3>
-            <p class="card-desc">Live deployed risk assessment for pressure vessel inspection in Indian refineries. Auditable deterministic logic — no black-box ML. Downloadable inspection priority reports.</p>
-            <div class="card-stack">
-              <span class="stack-pill">Python</span>
-              <span class="stack-pill">Streamlit</span>
-              <span class="stack-pill">Pandas</span>
-            </div>
-            <div class="card-links">
-              <a href="https://github.com/DEFAULTE-R/rbi-risk-prioritization/tree/main" target="_blank" rel="noopener noreferrer" class="card-link" aria-label="GitHub">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-              </a>
-              <a href="https://rbi-risk-prioritization.streamlit.app" target="_blank" rel="noopener noreferrer" class="card-link" aria-label="Live Demo">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-              </a>
-            </div>
-          </div>
-
-          <div class="project-card" data-tag="design">
-            <div class="card-top">
-              <span class="card-badge badge-blue">📌 SIH Selected</span>
-              <span class="card-tag">Design</span>
-              <span class="card-date">Oct 2025</span>
-            </div>
-            <h3 class="card-title">Kayak Paddle Optimization</h3>
-            <p class="card-desc">User-specific kayak paddle design integrating biomechanical force analysis with generative design in Fusion 360.</p>
-            <div class="card-stack">
-              <span class="stack-pill">Fusion 360</span>
-              <span class="stack-pill">Generative Design</span>
-              <span class="stack-pill">Biomechanics</span>
-              <span class="stack-pill">CAD</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section id="about">
       <div class="section-container">
         <div class="section-header reveal">
-          <span class="section-label">02</span>
+          <span class="section-label">01</span>
           <h2>About</h2>
         </div>
         <div class="about-grid">
@@ -190,7 +91,7 @@
     <section id="skills">
       <div class="section-container">
         <div class="section-header reveal">
-          <span class="section-label">03</span>
+          <span class="section-label">02</span>
           <h2>What I Work With</h2>
         </div>
         <div class="skills-wrapper reveal">
@@ -246,39 +147,10 @@
       </div>
     </section>
 
-    <section id="achievements">
-      <div class="section-container">
-        <div class="section-header reveal">
-          <span class="section-label">04</span>
-          <h2>Achievements</h2>
-        </div>
-        <div class="achievements-grid">
-          <div class="achievement-card reveal">
-            <div class="achievement-icon">🏆</div>
-            <h3 class="achievement-title">ASME BrainBolt Finalist</h3>
-            <p class="achievement-detail">The Engineer's Sprint · HICC, Hyderabad · 2025</p>
-            <p class="achievement-subtext">CFD automation challenge by Ansys & CADFEM</p>
-          </div>
-          <div class="achievement-card reveal reveal-delay-1">
-            <div class="achievement-icon">🥉</div>
-            <h3 class="achievement-title">IEI Energy Conservation Day</h3>
-            <p class="achievement-detail">3rd Place · Project Exhibition · Dec 2025</p>
-            <p class="achievement-subtext">Edge AI & Digital Twin concept among first-year teams</p>
-          </div>
-          <div class="achievement-card reveal reveal-delay-2">
-            <div class="achievement-icon">📌</div>
-            <h3 class="achievement-title">Smart India Hackathon 2025</h3>
-            <p class="achievement-detail">Selected Project</p>
-            <p class="achievement-subtext">Kayak Paddle Optimization — generative design & biomechanics</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section id="contact">
       <div class="section-container">
         <div class="section-header reveal">
-          <span class="section-label">05</span>
+          <span class="section-label">03</span>
           <h2>Let's Talk</h2>
         </div>
         <p class="contact-subtext reveal">If you're building something interesting or want to talk engineering — my inbox is open.</p>
